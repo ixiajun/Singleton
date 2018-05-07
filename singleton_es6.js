@@ -18,7 +18,7 @@ class Singleton {
   }
 }
 
-let a = Singleton.getInstance('sven1');
-let b = Singleton.getInstance('sven2');
-a.getName();
-b.getName();
+let a = Singleton.getInstance('sven1');       
+let b = Singleton.getInstance('sven2');      
+a.getName();        //  sven1
+b.getName();        //  sven1
