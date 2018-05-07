@@ -22,6 +22,6 @@ Singleton.getInstance = function(name) {
 
 var a = Singleton.getInstance('sven1');
 var b = Singleton.getInstance('sven2');
-a.getName();
-b.getName();
-console.log(a === b);
+a.getName();            //  sven1 
+b.getName();            //  sven1
+console.log(a === b);   //  true
